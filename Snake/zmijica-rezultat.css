@@ -1,0 +1,42 @@
+body{
+    color: white;
+    background-color: black;
+}
+
+#kontejner{
+    margin-top: 30px;
+}
+
+#tabelarezultata{
+    width:810px; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#scoreboard{
+    color: white;
+    text-align: center;
+     width: 100%;
+}
+
+#ispodtabele{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto; 
+    margin-top: 50px; 
+    font-size: 30px;
+    text-align: center;
+}
+
+#ispodtabele1{
+    width:900px;
+    margin-left:auto;
+    margin-right:auto; 
+    margin-top: 50px; 
+    font-size: 30px;
+    text-align: center;
+}
+
+.bolder{
+    font-weight: bold;
+}

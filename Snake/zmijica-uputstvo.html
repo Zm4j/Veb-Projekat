@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="zmijica-dodatno/Jquery3.6.0.js"></script>
+    <script src="zmijica-dodatno/bootstrap.js"></script>
+    <link href="zmijica-dodatno/bootstrap.css" rel="stylesheet">
+    <script src="zmijica-uputstvo.js"></script>
+    <link rel="stylesheet" href="zmijica-uputstvo.css">
+</head>
+<body>
+    
+    <div class="container" id="kontejner">
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="meni">
+                    ZMIJICA
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="meni text-align" style="text-align: end">
+                    <a href="zmijica-rezultat.html">rezultati</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="pozadina">
+                Odabrati velicinu tabele: <br>
+                <input type="radio" id="9" name="tablesize" checked="checked"><label for="9">9x9</label>
+                <input type="radio" id="16" name="tablesize"><label for="16">16x16</label>
+                <input type="radio" id="25" name="tablesize"><label for="25">25x25</label>
+                <br><br><br><br>Odabrati brzinu igrice: <br>
+                <input type="radio" id="slow" name="gamespeed"><label for="slow">sporo</label>
+                <input type="radio" id="normal" name="gamespeed"><label for="normal">normalno</label>
+                <input type="radio" id="fast" name="gamespeed" checked="checked"><label for="fast">brzo</label>
+                <br><br>
+                Kontrole su : WSAD ili strelice <br>svako ostalo dugme oznacava pauzu
+            </div>
+        </div>
+
+        <div class="row">
+            <button class="btn btn-warning" id="start"> pokreni igru </button>
+        </div>
+
+
+    </div>
+
+</body>
+</html>

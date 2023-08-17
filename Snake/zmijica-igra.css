@@ -1,0 +1,100 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+#now{
+    text-align: end;
+}
+
+#kontejner{
+    margin-top: 20px;
+}
+
+#addtable{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    
+    height: 500px;
+    width: 500px;
+    /*background-image: url(tablesprite.jpeg);*/
+    background-size: 100% 100%;
+}
+
+.poljeparno{
+    background-color:rgb(140, 119, 102);
+}
+
+.poljeneparno{
+    background-color: rgb(122, 104, 90);
+}
+
+.food{
+    background-image: url(zmijica-dodatno/redball.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.superfood{
+    background-image: url(zmijica-dodatno/goldball.png);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headU{
+    background-image: url(zmijica-dodatno/glavagore.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headR{
+    background-image: url(zmijica-dodatno/glavadesno.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headD{
+    background-image: url(zmijica-dodatno/glavadole.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.headL{
+    background-image: url(zmijica-dodatno/glavalevo.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.body{
+    background-color: rgb(162, 157, 117);
+}
+.body1{
+    background-color: red;
+}
+.body2{
+    background-color: orange;
+}
+.body3{
+    background-color:yellow;
+}
+.body4{
+    background-color: greenyellow;
+}
+.body5{
+    background-color: lightskyblue;
+}
+.body6{
+    background-color: blue;
+}
+.body7{
+    background-color:blueviolet;
+}

@@ -1,0 +1,35 @@
+.meni{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    /*text-align: center;*/
+    font-style: italic;
+}
+
+.pozadina{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-image: url("zmijica-dodatno/mainslika.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /*background-size: 20%;*/
+    height: 400px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.text-align{
+    text-align: end;
+}
+
+body{
+    font-family: "Comic Sans MS, Comic Sans, cursive";
+    /*opacity: 0.9;*/
+    background-color: black;
+}
+
+#kontejner{
+    margin-top: 20px;
+    width: 60%;
+}
